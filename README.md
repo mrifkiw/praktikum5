@@ -7,21 +7,26 @@
 ### ✅  DaisyUI
 ## 1. Clone this project
 ```
- git clone https://github.com/mrifkiw/pw-praktikum4.git
+ git clone https://github.com/mrifkiw/praktikum5.git
 ```
 ## 2. Open project in terminal
 ```
-cd pw-praktikum4
+cd praktikum5
 ```
 ## 3. Install Dependency
 ```
 npm i
 ```
 ## 4. Change .env file as same your database
-## 5. Migrations
+## 5. Migrate to create table in your database
 ```
-php spark migrate
+php spark migrate devices
 ```
+## 6. DBSeed to create fake data
+```
+php spark db:seed devices
+```
+
 ## 6. Project Ready to go 🚀
 ```
 php spark serve
